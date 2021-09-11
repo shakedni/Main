@@ -1,0 +1,66 @@
+.text-white{
+color: white;
+}
+.bg-white{
+    background-color: white;
+}
+.auth-container{
+    overflow: hidden;
+    background-color: #1187EF;
+}
+.auth-card{
+    padding: 5%;
+    height: 100vh;
+}
+.login{
+    background-color: white;
+    height: auto;
+    border-radius: 0px 50px 50px 0px;
+
+}
+.register{
+    background-color: white;
+    height: auto;
+    border-radius: 50px 0px 0px 50px;
+
+}
+.left{
+    float: left;
+}
+.table-card{
+    box-shadow: 0 0 2rem 0 rgba(136,152,170,.15)!important;
+    border: none;
+    border-radius: 2px;
+}
+.bottom-footer{
+    background-color: #F8F9FA;
+    padding: 4vh;
+    /* position: absolute; */
+    bottom: 0;
+}
+.footer-content{
+    width: 50%;
+}
+
+.location-search-input {
+    width: 100%;
+    padding: 1vh 1vw;
+    margin-top: 7vh;
+  }
+
+  .event_map{
+      height: 800px;
+  }
+  .report_card{
+    -webkit-box-shadow: 0 0 10px gray;
+        box-shadow: 0 0 10px gray;
+  }
+
+@media screen and (max-width: 767px) {
+    .login{
+        border-radius: 0px 0px 50px 50px;
+    }
+    .register{
+        border-radius: 50px 50px 0px 0px;
+    }
+}
